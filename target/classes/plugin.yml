@@ -1,0 +1,4 @@
+name: backpacker
+main: com.avery.backpacker.Plugin
+version: 1.0-SNAPSHOT
+api-version: 1.15
