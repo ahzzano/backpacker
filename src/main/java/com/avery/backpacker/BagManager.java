@@ -7,4 +7,13 @@ public class BagManager {
         // ... constructor stuff
     }
 
+    public static synchronized BagManager getInstance() {
+        if(instance == null) {
+            instance = new BagManager();
+        }
+
+        return instance;
+
+    }
+
 }
