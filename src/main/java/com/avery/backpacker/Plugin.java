@@ -59,6 +59,7 @@ public class Plugin extends JavaPlugin
 
   public void onDisable()
   {
+    BagManager.saveInventories();
     LOGGER.info("backpacker disabled");
   }
 

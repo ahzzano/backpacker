@@ -2,7 +2,6 @@ package com.avery.backpacker;
 
 import org.bukkit.inventory.Inventory;
 import org.bukkit.inventory.InventoryHolder;
-import org.jetbrains.annotations.NotNull;
 
 public class BackpackInventory implements InventoryHolder{
     private final Inventory inventory;
