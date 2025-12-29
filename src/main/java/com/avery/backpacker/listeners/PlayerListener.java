@@ -11,9 +11,6 @@ import org.bukkit.persistence.PersistentDataType;
 
 import com.avery.backpacker.Plugin;
 
-import io.papermc.paper.datacomponent.DataComponentTypes;
-import net.kyori.adventure.text.Component;
-
 public class PlayerListener implements Listener {
     @EventHandler
     public void onPlayerInteract(PlayerInteractEvent event) {
