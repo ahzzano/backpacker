@@ -9,12 +9,13 @@ import org.bukkit.event.player.PlayerInteractEvent;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.persistence.PersistentDataType;
 
+import com.avery.backpacker.BagManager;
 import com.avery.backpacker.Plugin;
 
 public class PlayerListener implements Listener {
     @EventHandler
     public void onPlayerInteract(PlayerInteractEvent event) {
-
+            
     }
 
     @EventHandler
@@ -31,6 +32,7 @@ public class PlayerListener implements Listener {
             pdc.set(Plugin.getInstance().backpack_id, PersistentDataType.STRING, id);
         });
 
+        BagManager.getInstance().addBackpackInventory(id);
     }
     
 }
