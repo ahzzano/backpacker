@@ -13,7 +13,6 @@ public class BagManager {
         }
 
         return instance;
-
     }
 
 }
